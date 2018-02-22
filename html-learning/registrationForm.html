@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style type="text/css">
+		fieldset {
+			width: 250px;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Registration Form</legend>
+			<p>
+				<label for="first">First Name</label>
+				<input type="text" name="fname" id="first" placeholder="First Name" required>
+			</p>
+			<p>
+				<label for="last">Last Name</label>
+				<input type="text" name="lname" id="last" placeholder="Last Name" required>
+			</p>
+			<p>
+			<fieldset>
+				<legend>Gender</legend>
+				<input id="male" type="radio" name="gender" value="Male">
+				<label for="male">Male</label>
+				<input id="female" type="radio" name="gender" value="Female">
+				<label for="female">Female</label>
+				<input id="other" type="radio" name="gender" value="Other">
+				<label for="other">Other</label>
+			</fieldset>	
+			<p>
+				<label for="email">Email</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="email" type="email" name="email" required>
+			</p>
+			<p>
+				<label for="psw">Password</label>
+				<input id="psw" type="email" name="password">
+			</p>
+			<p>
+				<input type="submit">
+			</p>
+			</p>
+		</fieldset>
+		
+	</form>
+</body>
+</html>
