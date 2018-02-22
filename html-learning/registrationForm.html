@@ -9,7 +9,7 @@
 	</style>
 </head>
 <body>
-	<form>
+	<form action="users.html" method="POST">
 		<fieldset>
 			<legend>Registration Form</legend>
 			<p>
@@ -36,14 +36,94 @@
 			</p>
 			<p>
 				<label for="psw">Password</label>
-				<input id="psw" type="email" name="password">
+				<input required title="Must be min 6 characters" pattern=".{6,}" id="psw" type="password" name="password" >
+			</p>
+			<p>
+				<label> Day:
+					<select name="day" required>
+					<option value="">--Select Day--</option>
+					<option>1</option>   
+					<option>2</option>   
+					<option>3</option>   
+					<option>4</option>   
+					<option>5</option>   
+					<option>6</option>   
+					<option>7</option>   
+					<option>8</option>   
+					<option>9</option>   
+					<option>10</option>   
+					<option>11</option>   
+					<option>12</option>   
+					<option>13</option>   
+					<option>14</option>   
+					<option>15</option>   
+					<option>16</option>   
+					<option>17</option>   
+					<option>18</option>   
+					<option>19</option>   
+					<option>20</option>   
+					<option>21</option>   
+					<option>22</option>   
+					<option>23</option>   
+					<option>24</option>   
+					<option>25</option>   
+					<option>26</option>   
+					<option>27</option>   
+					<option>28</option>   
+					<option>29</option>   
+					<option>30</option>   
+					<option>31</option>   
+				</select>
+				</label>
+			</p>
+			<p>
+				<label> Month: 
+					<select name="month" required>
+					<option value="">-- Select Month --</option>
+					<option>January</option>
+					<option>February</option>
+					<option>March</option>
+					<option>April</option>
+					<option>May</option>
+					<option>June</option>
+					<option>July</option>
+					<option>August</option>
+					<option>September</option>
+					<option>October</option>
+					<option>November</option>
+					<option>December</option>
+				</select>
+				</label>	
+			</p>
+			<p>
+				<label>Year:
+					<select name="year">
+						<option value="">--Select year --</option>
+						<option>1990</option>
+						<option>1991</option>
+						<option>1992</option>
+						<option>1993</option>
+						<option>1994</option>
+						<option>1995</option>
+						<option>1996</option>
+						<option>1997</option>
+						<option>1998</option>
+						<option>1999</option>
+						<option>2000</option>
+					</select>
+				</label>
+			</p>
+			<p>
+				<label> Description: 
+					<textarea rows="10" cols="15" name="description" style="margin: 0px; width: 267px; height: 126px;" required></textarea>
+				</label>
 			</p>
 			<p>
 				<input type="submit">
 			</p>
 			</p>
 		</fieldset>
-		
+		<p style="color: red" >Hello sir</p>
 	</form>
 </body>
 </html>
