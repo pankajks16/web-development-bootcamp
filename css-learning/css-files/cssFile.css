@@ -1,0 +1,48 @@
+/*selector {
+	property: value;
+	anotherProperty: anotherValue   Semicolon in the last property is not mandatory to end the declarations.
+} */
+
+h1 {
+	color: purple;
+}
+
+h2 {
+	color: rgb(120, 200, 0);
+	border-width: 2px;
+	border-style: dashed;
+	border-color: yellow;
+}
+
+h1 {
+	color: deeppink !important; /* !important is used to avaoid any override in future to make
+									priority over other settings */
+}
+
+li {
+	color: orange;
+}
+
+h1 {
+	color: blue;
+}
+
+h3 {
+	color: rgba(150, 0, 50, 1); /* rgb() has three channels. SYNTAX-> rgb(Red, Blue, Green) in same sequence */
+	border: 3px solid rgba(200, 150, 0, 0.4);   /* SYNTAX -> border: width style color ; color can be hex-code or rgb(a) format */
+}
+
+h4 {
+	color: rgba(150, 0, 50, 0.5);
+}
+
+body {
+	/*background: lightgreen;	*/
+	background: url(./../images/img2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;  /* Another way-> background: url(link-to-image) no-repeat center; Learn more on this */
+}
+
+p {
+	color: white;
+}
