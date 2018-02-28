@@ -3,6 +3,10 @@
 	anotherProperty: anotherValue   Semicolon in the last property is not mandatory to end the declarations.
 } */
 
+
+/*All the below css are the example of "element selector" bcoz they get applied directly over that element
+wherever they are present in the document */
+
 h1 {
 	color: purple;
 }

@@ -1,0 +1,19 @@
+/*
+
+NOTE:
+id takes more preference than the class irrespective of what position its css is defined.
+so if you have a class and id for an element, and if both are defined in css then the id css will take over
+
+*/
+
+body {
+	background-color: orange;
+}
+
+#hello {
+	background-color: red;
+}
+
+.special {
+	background-color: green;
+}

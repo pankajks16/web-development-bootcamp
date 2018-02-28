@@ -1,0 +1,37 @@
+/*SELECTORS*/
+/*https://code.tutsplus.com*/
+/*element selector*/
+
+/*class selector*/
+
+/*id selector*/
+
+/*    Star selector (*) -> It selects each and every elements on the page  */
+/** {
+	border: 1px solid black;
+}*/
+
+/*descendent selector*/
+
+li a {
+	color: red;
+}
+
+/*Adjacent selectors  -> It will select only the element that is immediately preceded by the former element.
+In the below example, only that ul get effected which is present just after an anchor tag at same level. 
+Every pair of that kind gets effected where there is a ul tag just after an anchor tag in case of below example.
+*/
+a + ul {
+	border: 1px solid green;	
+}
+
+
+a[href=""] {
+	background-color: pink;
+}
+
+
+li:nth-of-type(odd) {
+	background-color: pink;
+}
+
